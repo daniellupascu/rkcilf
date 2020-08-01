@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Input Component renders correctly 1`] = `
+<div
+  className="sc-AxjAm jsGdgg"
+>
+  <div
+    className="sc-AxirZ hEggWj"
+  >
+    Name
+  </div>
+  <div
+    className="sc-AxiKw cMDocJ"
+  >
+    <input
+      className="sc-AxhCb jVuUNY"
+      onChange={[Function]}
+    />
+  </div>
+</div>
+`;

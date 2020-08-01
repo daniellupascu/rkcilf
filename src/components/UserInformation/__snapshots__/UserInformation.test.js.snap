@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test UserInformation Component Test UserInformation Component with missing fields 1`] = `
+<div
+  className="UserInformationStyled__UserInfoContainer-crl51c-0 bQMhtk"
+>
+  <div
+    className="sc-AxjAm jhiTqR"
+  >
+    <img
+      className="sc-AxirZ fZpmTJ"
+      src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+    />
+  </div>
+  <div
+    className="UserInformationStyled__DetailsContainer-crl51c-1 JSmnp"
+  >
+    <div
+      className="UserInformationStyled__UserName-crl51c-2 gDOTai"
+    >
+      Frank Johnson
+    </div>
+    <div
+      className="UserInformationStyled__UsernameContainer-crl51c-3 kCrkDI"
+    >
+      <a
+        className="UserInformationStyled__ProfileUrl-crl51c-4 iqLmia"
+        href="https://github.com/"
+      />
+    </div>
+    <div
+      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+    >
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Following
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        />
+      </div>
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Followers
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        />
+      </div>
+    </div>
+    <div
+      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+    >
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Location
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        >
+          Arizona
+        </div>
+      </div>
+    </div>
+    <div
+      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+    >
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Repos
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        >
+          10
+        </div>
+      </div>
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Gitsts
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        >
+          0
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test UserInformation Component renders correctly 1`] = `
+<div
+  className="UserInformationStyled__UserInfoContainer-crl51c-0 bQMhtk"
+>
+  <div
+    className="sc-AxjAm jhiTqR"
+  >
+    <img
+      className="sc-AxirZ fZpmTJ"
+      src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+    />
+  </div>
+  <div
+    className="UserInformationStyled__DetailsContainer-crl51c-1 JSmnp"
+  >
+    <div
+      className="UserInformationStyled__UserName-crl51c-2 gDOTai"
+    >
+      Frank Johnson
+    </div>
+    <div
+      className="UserInformationStyled__UsernameContainer-crl51c-3 kCrkDI"
+    >
+      <a
+        className="UserInformationStyled__ProfileUrl-crl51c-4 iqLmia"
+        href="https://github.com/"
+      />
+    </div>
+    <div
+      className="UserInformationStyled__BioContainer-crl51c-5 iDIodn"
+    >
+      users bio
+    </div>
+    <div
+      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+    >
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Following
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        />
+      </div>
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Followers
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        />
+      </div>
+    </div>
+    <div
+      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+    >
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Location
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        >
+          Arizona
+        </div>
+      </div>
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Blog
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        >
+          <a
+            className="UserInformationStyled__BlogUrl-crl51c-7 hhFexy"
+            href="https://github.com/"
+          >
+            https://github.com/
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+    >
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Repos
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        >
+          10
+        </div>
+      </div>
+      <div
+        className="sc-AxiKw lmEmTk"
+      >
+        <div
+          className="sc-AxhCb bBcDsF"
+        >
+          Gitsts
+        </div>
+        <div
+          className="sc-AxhUy kMyssT"
+        >
+          0
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

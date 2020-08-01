@@ -3,9 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 
 import Input from "../Input/Input";
 import { loadUser, clearUser } from "../../store/actions/user";
-import { FormContainer, LoaderContainer } from "./UserSearchFormStyled";
-import Loader from "../Loader/Loader";
-import UserInformation from "../UserInformation/UserInformation";
+import { FormContainer } from "./UserSearchFormStyled";
+import UserResult from "../UserResult/UserResult";
 
 const UserSearchForm = () => {
   const [inputValue, setInputValue] = useState("");
@@ -41,23 +40,22 @@ const UserSearchForm = () => {
   }, [dispatch, inputValue]);
 
   return (
-    <FormContainer>
-      <Input
-        label={"Search Github User"}
-        placeholder={"Type username"}
-        onChange={onInputValueChange}
-        value={inputValue}
+    <>
+      <FormContainer>
+        <Input
+          label={"Search Github User"}
+          placeholder={"Type username"}
+          onChange={onInputValueChange}
+          value={inputValue}
+        />
+      </FormContainer>
+
+      <UserResult
+        user={user.user}
+        isLoading={isTyping || user.isLoading}
+        isNotFound={user.isNotFound}
       />
-      {isTyping || user.isLoading ? (
-        <LoaderContainer>
-          <Loader />
-        </LoaderContainer>
-      ) : user.isNotFound ? (
-        "user not found"
-      ) : user.user.id ? (
-        <UserInformation user={user.user} />
-      ) : null}
-    </FormContainer>
+    </>
   );
 };
 
