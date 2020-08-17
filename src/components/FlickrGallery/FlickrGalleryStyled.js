@@ -6,7 +6,7 @@ export const FlickrGalleryContainer = styled.div`
 
   display: grid;
   grid-template-columns: repeat(4, minmax(150px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(250px, 1fr))
+  grid-template-rows: repeat(auto-fill, minmax(200px, 1fr))
   grid-gap: 5px;
 `;
 
@@ -16,6 +16,7 @@ export const FlickrImage = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 
   &:hover {
     transform: scale(1.5);
