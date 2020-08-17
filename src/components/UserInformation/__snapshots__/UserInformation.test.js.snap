@@ -2,7 +2,7 @@
 
 exports[`Test UserInformation Component Test UserInformation Component with missing fields 1`] = `
 <div
-  className="UserInformationStyled__UserInfoContainer-crl51c-0 bQMhtk"
+  className="UserInformationStyled__UserInfoContainer-sc-1blzddj-0 jenztY"
 >
   <div
     className="sc-AxjAm jhiTqR"
@@ -13,23 +13,23 @@ exports[`Test UserInformation Component Test UserInformation Component with miss
     />
   </div>
   <div
-    className="UserInformationStyled__DetailsContainer-crl51c-1 JSmnp"
+    className="UserInformationStyled__DetailsContainer-sc-1blzddj-1 kmhjpF"
   >
     <div
-      className="UserInformationStyled__UserName-crl51c-2 gDOTai"
+      className="UserInformationStyled__UserName-sc-1blzddj-2 cWlipe"
     >
       Frank Johnson
     </div>
     <div
-      className="UserInformationStyled__UsernameContainer-crl51c-3 kCrkDI"
+      className="UserInformationStyled__UsernameContainer-sc-1blzddj-3 kVUCfQ"
     >
       <a
-        className="UserInformationStyled__ProfileUrl-crl51c-4 iqLmia"
+        className="UserInformationStyled__ProfileUrl-sc-1blzddj-4 eUbYqi"
         href="https://github.com/"
       />
     </div>
     <div
-      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+      className="UserInformationStyled__DetailTilesContainer-sc-1blzddj-6 cvHTUm"
     >
       <div
         className="sc-AxiKw lmEmTk"
@@ -57,7 +57,7 @@ exports[`Test UserInformation Component Test UserInformation Component with miss
       </div>
     </div>
     <div
-      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+      className="UserInformationStyled__DetailTilesContainer-sc-1blzddj-6 cvHTUm"
     >
       <div
         className="sc-AxiKw lmEmTk"
@@ -75,7 +75,7 @@ exports[`Test UserInformation Component Test UserInformation Component with miss
       </div>
     </div>
     <div
-      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+      className="UserInformationStyled__DetailTilesContainer-sc-1blzddj-6 cvHTUm"
     >
       <div
         className="sc-AxiKw lmEmTk"
@@ -112,7 +112,7 @@ exports[`Test UserInformation Component Test UserInformation Component with miss
 
 exports[`Test UserInformation Component renders correctly 1`] = `
 <div
-  className="UserInformationStyled__UserInfoContainer-crl51c-0 bQMhtk"
+  className="UserInformationStyled__UserInfoContainer-sc-1blzddj-0 jenztY"
 >
   <div
     className="sc-AxjAm jhiTqR"
@@ -123,28 +123,28 @@ exports[`Test UserInformation Component renders correctly 1`] = `
     />
   </div>
   <div
-    className="UserInformationStyled__DetailsContainer-crl51c-1 JSmnp"
+    className="UserInformationStyled__DetailsContainer-sc-1blzddj-1 kmhjpF"
   >
     <div
-      className="UserInformationStyled__UserName-crl51c-2 gDOTai"
+      className="UserInformationStyled__UserName-sc-1blzddj-2 cWlipe"
     >
       Frank Johnson
     </div>
     <div
-      className="UserInformationStyled__UsernameContainer-crl51c-3 kCrkDI"
+      className="UserInformationStyled__UsernameContainer-sc-1blzddj-3 kVUCfQ"
     >
       <a
-        className="UserInformationStyled__ProfileUrl-crl51c-4 iqLmia"
+        className="UserInformationStyled__ProfileUrl-sc-1blzddj-4 eUbYqi"
         href="https://github.com/"
       />
     </div>
     <div
-      className="UserInformationStyled__BioContainer-crl51c-5 iDIodn"
+      className="UserInformationStyled__BioContainer-sc-1blzddj-5 jdXPTn"
     >
       users bio
     </div>
     <div
-      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+      className="UserInformationStyled__DetailTilesContainer-sc-1blzddj-6 cvHTUm"
     >
       <div
         className="sc-AxiKw lmEmTk"
@@ -172,7 +172,7 @@ exports[`Test UserInformation Component renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+      className="UserInformationStyled__DetailTilesContainer-sc-1blzddj-6 cvHTUm"
     >
       <div
         className="sc-AxiKw lmEmTk"
@@ -200,7 +200,7 @@ exports[`Test UserInformation Component renders correctly 1`] = `
           className="sc-AxhUy kMyssT"
         >
           <a
-            className="UserInformationStyled__BlogUrl-crl51c-7 hhFexy"
+            className="UserInformationStyled__BlogUrl-sc-1blzddj-7 gkdhrO"
             href="https://github.com/"
           >
             https://github.com/
@@ -209,7 +209,7 @@ exports[`Test UserInformation Component renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="UserInformationStyled__DetailTilesContainer-crl51c-6 gEntXy"
+      className="UserInformationStyled__DetailTilesContainer-sc-1blzddj-6 cvHTUm"
     >
       <div
         className="sc-AxiKw lmEmTk"

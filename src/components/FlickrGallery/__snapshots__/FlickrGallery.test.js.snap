@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Flickr Gallery Component renders correctly 1`] = `
+<div
+  className="FlickrGalleryStyled__FlickrGalleryContainer-sc-3z0gpy-0 fYWEYh"
+>
+  <figure
+    className="FlickrGalleryStyled__FlickrImageContainer-sc-3z0gpy-1 dEFPTH"
+  >
+    <img
+      className="FlickrGalleryStyled__FlickrImage-sc-3z0gpy-2 kYLggp"
+      src="url.com"
+    />
+  </figure>
+  <figure
+    className="FlickrGalleryStyled__FlickrImageContainer-sc-3z0gpy-1 dEFPTH"
+  >
+    <img
+      className="FlickrGalleryStyled__FlickrImage-sc-3z0gpy-2 kYLggp"
+      src="url.dk"
+    />
+  </figure>
+</div>
+`;

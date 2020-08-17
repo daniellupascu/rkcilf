@@ -8,11 +8,11 @@ import { LoaderContainer } from "./UserResultStyled";
 const UserResult = ({ isLoading, isNotFound, user }) => {
   return (
     <>
-      {user.isLoading ? (
+      {isLoading ? (
         <LoaderContainer>
           <Loader />
         </LoaderContainer>
-      ) : user.isNotFound ? (
+      ) : isNotFound ? (
         <LoaderContainer>user not found</LoaderContainer>
       ) : user.id ? (
         <UserInformation user={user} />

@@ -1,10 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test UserResult Component renders correctly 1`] = `null`;
-
-exports[`Test UserResult Component renders correctly the loading state 1`] = `
+exports[`Test FlickrResult Component renders correctly 1`] = `
 <div
-  className="sc-AxgMl fnASWo"
+  className="FlickrGalleryStyled__FlickrGalleryContainer-sc-3z0gpy-0 fYWEYh"
+>
+  <figure
+    className="FlickrGalleryStyled__FlickrImageContainer-sc-3z0gpy-1 dEFPTH"
+  >
+    <img
+      className="FlickrGalleryStyled__FlickrImage-sc-3z0gpy-2 kYLggp"
+      src="url.com"
+    />
+  </figure>
+  <figure
+    className="FlickrGalleryStyled__FlickrImageContainer-sc-3z0gpy-1 dEFPTH"
+  >
+    <img
+      className="FlickrGalleryStyled__FlickrImage-sc-3z0gpy-2 kYLggp"
+      src="url.dk"
+    />
+  </figure>
+</div>
+`;
+
+exports[`Test FlickrResult Component renders correctly the loading state 1`] = `
+<div
+  className="sc-AxjAm khEyo"
 >
   <svg
     height="44"
@@ -75,10 +96,10 @@ exports[`Test UserResult Component renders correctly the loading state 1`] = `
 </div>
 `;
 
-exports[`Test UserResult Component renders correctly the not found state 1`] = `
+exports[`Test FlickrResult Component renders correctly the not found state 1`] = `
 <div
-  className="sc-AxgMl fnASWo"
+  className="sc-AxjAm khEyo"
 >
-  user not found
+  no images found
 </div>
 `;
