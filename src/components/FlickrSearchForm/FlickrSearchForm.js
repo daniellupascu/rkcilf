@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import {
   FlickrSearchFormStyled,
@@ -13,6 +13,7 @@ import {
 } from "../../store/actions/flickr";
 
 const FlickrSearchForm = () => {
+  const didMountRef = useRef(false);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
 
@@ -31,17 +32,21 @@ const FlickrSearchForm = () => {
 
   useEffect(() => {
     let timeoutId;
-    try {
-      timeoutId = setTimeout(async () => {
-        if (inputValue) {
-          await dispatch(loadTaggedImages(inputValue));
-        } else {
-          dispatch(loadInitialImages());
-        }
-        setIsTyping(false);
-      }, 1000);
-    } catch {
-      console.log("ERROR LOADING IMAGES");
+    if (didMountRef.current) {
+      try {
+        timeoutId = setTimeout(async () => {
+          if (inputValue) {
+            await dispatch(loadTaggedImages(inputValue));
+          } else {
+            dispatch(loadInitialImages());
+          }
+          setIsTyping(false);
+        }, 1000);
+      } catch {
+        console.log("ERROR LOADING IMAGES");
+      }
+    } else {
+      didMountRef.current = true;
     }
 
     return () => {
