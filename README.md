@@ -65,9 +65,11 @@ Can be easily manipulated with JavaScript or CSS which means there is less code 
 ## Architectural choices
 
 **Proxy server**
+
 Because the Flickr API did not send **Access-Control-Allow-Origin** in its responses, the client could not access the data it received due to security reasons, so I have used a proxy server that will make the request to Flickr on my behalf and forward the response once it is ready. This is the proxy API I used https://github.com/Rob--W/cors-anywhere
 
 **XML to JSON**
+
 Flickr's responses are in XML format, so in order to make the more readable and managable, I used a package that converts XML to JSON. https://www.npmjs.com/package/xml-js
 
 **Some of the components created**
