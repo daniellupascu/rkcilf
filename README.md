@@ -1,3 +1,9 @@
+## About
+
+Flickr and Github search engine.
+Searches images on Flickr by the provided search criteria (uses XML api)
+Searches github user accounts by username (uses JSON api)
+
 ## How to run the app
 
 Clone repo and run:
@@ -34,6 +40,9 @@ Automatically injects styles based on the rendered compoents. This removes extra
 Removes class name clashes and helps developers spend time on what's important, not on finding good class names<br />
 Enables dynamic styling of a component based on its props or global theme<br />
 
+**CSS Grid**
+Used to create the layout for Flickr images received
+
 **State management**
 
 **Redux**
@@ -55,17 +64,23 @@ Can be easily manipulated with JavaScript or CSS which means there is less code 
 
 ## Architectural choices
 
+**Proxy server**
+Because the Flickr API did not send **Access-Control-Allow-Origin** in its responses, the client could not access the data it received due to security reasons, so I have used a proxy server that will make the request to Flickr on my behalf and forward the response once it is ready. This is the proxy API I used https://github.com/Rob--W/cors-anywhere
+
+**XML to JSON**
+Flickr's responses are in XML format, so in order to make the more readable and managable, I used a package that converts XML to JSON. https://www.npmjs.com/package/xml-js
+
 **Some of the components created**
 
 In order to make our components testable and as reusable as possible all the elements of the Dropdown are separated and can be used in multiple circumstances<br />
 
-**UserSearchForm**
+**UserSearchForm and FlickrSearchForm**
 
 contains the logic for input interaction and triggers the request when the user is done typing<br />
 
-**UserResult**
+**UserResult FlickrGallery**
 
-renders the user result if a user is found. It combines multiple components<br />
+renders the result received from the server. It combines multiple components<br />
 
 **Input**
 
