@@ -5,6 +5,8 @@ import {
   FlickrGalleryContainer,
   FlickrImageContainer,
   FlickrImage,
+  ImageInfo,
+  ImageDetail,
 } from "./FlickrGalleryStyled";
 
 const FlickrGallery = ({ images }) => {
@@ -13,6 +15,10 @@ const FlickrGallery = ({ images }) => {
       {images.map((image, i) => (
         <FlickrImageContainer key={i}>
           <FlickrImage src={image.src} />
+          <ImageInfo>
+            <ImageDetail>{image.title._text}</ImageDetail>
+            <ImageDetail>credits: {image.author.name._text}</ImageDetail>
+          </ImageInfo>
         </FlickrImageContainer>
       ))}
     </FlickrGalleryContainer>
