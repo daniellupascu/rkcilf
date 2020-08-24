@@ -2,23 +2,53 @@
 
 exports[`Test FlickrResult Component renders correctly 1`] = `
 <div
-  className="FlickrGalleryStyled__FlickrGalleryContainer-sc-3z0gpy-0 fYWEYh"
+  className="FlickrGalleryStyled__FlickrGalleryContainer-sc-3z0gpy-0 kwOdIo"
 >
   <figure
-    className="FlickrGalleryStyled__FlickrImageContainer-sc-3z0gpy-1 dEFPTH"
+    className="FlickrGalleryStyled__FlickrImageContainer-sc-3z0gpy-1 kxaNwV"
   >
     <img
-      className="FlickrGalleryStyled__FlickrImage-sc-3z0gpy-2 kYLggp"
+      className="FlickrGalleryStyled__FlickrImage-sc-3z0gpy-2 dxtjqM"
       src="url.com"
     />
+    <div
+      className="FlickrGalleryStyled__ImageInfo-sc-3z0gpy-3 bHTbjt"
+    >
+      <div
+        className="FlickrGalleryStyled__ImageDetail-sc-3z0gpy-4 fhnvNK"
+      >
+        random Image
+      </div>
+      <div
+        className="FlickrGalleryStyled__ImageDetail-sc-3z0gpy-4 fhnvNK"
+      >
+        credits: 
+        Random User
+      </div>
+    </div>
   </figure>
   <figure
-    className="FlickrGalleryStyled__FlickrImageContainer-sc-3z0gpy-1 dEFPTH"
+    className="FlickrGalleryStyled__FlickrImageContainer-sc-3z0gpy-1 kxaNwV"
   >
     <img
-      className="FlickrGalleryStyled__FlickrImage-sc-3z0gpy-2 kYLggp"
+      className="FlickrGalleryStyled__FlickrImage-sc-3z0gpy-2 dxtjqM"
       src="url.dk"
     />
+    <div
+      className="FlickrGalleryStyled__ImageInfo-sc-3z0gpy-3 bHTbjt"
+    >
+      <div
+        className="FlickrGalleryStyled__ImageDetail-sc-3z0gpy-4 fhnvNK"
+      >
+        random Image
+      </div>
+      <div
+        className="FlickrGalleryStyled__ImageDetail-sc-3z0gpy-4 fhnvNK"
+      >
+        credits: 
+        Random User
+      </div>
+    </div>
   </figure>
 </div>
 `;

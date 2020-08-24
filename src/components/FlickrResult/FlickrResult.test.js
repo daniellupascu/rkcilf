@@ -4,7 +4,18 @@ import FlickrResult from "./FlickrResult";
 
 describe("Test FlickrResult Component", () => {
   it("renders correctly", () => {
-    const images = [{ src: "url.com" }, { src: "url.dk" }];
+    const images = [
+      {
+        src: "url.com",
+        title: { _text: "random Image" },
+        author: { name: { _text: "Random User" } },
+      },
+      {
+        src: "url.dk",
+        title: { _text: "random Image" },
+        author: { name: { _text: "Random User" } },
+      },
+    ];
     const tree = renderer
       .create(
         <FlickrResult images={images} isLoading={false} isNotFound={false} />
